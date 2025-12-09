@@ -1,8 +1,8 @@
 # 网站信息
 title: 小李的百科全书
-subtitle: 副标题
-description: 描述
-keywords: 关键词
+subtitle: 世界那么大，人生那么长
+description: 悟已往之不谏，知来者之可追
+keywords: 生活；工作；随笔
 author: liyubenli
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -19,4 +19,4 @@ deploy:
     # 或使用 SSH（推荐）
     # github: git@github.com:您的用户名/您的用户名.github.io.git
   branch: main
-  message: "更新: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  message: "更新: {{ now }}"
