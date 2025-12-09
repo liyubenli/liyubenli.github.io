@@ -1,0 +1,22 @@
+# 网站信息
+title: 小李的百科全书
+subtitle: 副标题
+description: 描述
+keywords: 关键词
+author: liyubenli
+language: zh-CN
+timezone: 'Asia/Shanghai'
+
+# URL
+url: https://liyubenli.github.io
+root: /
+
+# 部署配置
+deploy:
+  type: git
+  repo: 
+    github: https://github.com/liyubenli/liyubenli.github.io.git
+    # 或使用 SSH（推荐）
+    # github: git@github.com:您的用户名/您的用户名.github.io.git
+  branch: main
+  message: "更新: {{ now('YYYY-MM-DD HH:mm:ss') }}"
