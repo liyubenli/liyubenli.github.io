@@ -19,4 +19,4 @@ deploy:
     # 或使用 SSH（推荐）
     # github: git@github.com:您的用户名/您的用户名.github.io.git
   branch: main
-  message: "更新: {{ now }}"
+  message: "更新"
